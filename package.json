@@ -1,0 +1,6 @@
+{
+  "scripts": {
+    "pack": "tar -cvzf assets.zip ./binaries/*",
+    "commit": "git add . && git commit --amend && git push -f"
+  }
+}
